@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<block>
+  <name>dmx</name>
+  <key>dmx_dmx</key>
+  <category>dmx</category>
+  <import>import dmx</import>
+  <make>dmx.dmx()</make>
+  <sink>
+    <name>red1</name>
+    <type>float</type>
+  </sink>
+  <sink>
+    <name>green1</name>
+    <type>float</type>
+  </sink>
+  <sink>
+    <name>blue1</name>
+    <type>float</type>
+  </sink>
+  <sink>
+    <name>red2</name>
+    <type>float</type>
+  </sink>
+  <sink>
+    <name>green2</name>
+    <type>float</type>
+  </sink>
+  <sink>
+    <name>blue2</name>
+    <type>float</type>
+  </sink>
+  <sink>
+    <name>red3</name>
+    <type>float</type>
+  </sink>
+  <sink>
+    <name>green3</name>
+    <type>float</type>
+  </sink>
+  <sink>
+    <name>blue3</name>
+    <type>float</type>
+  </sink>
+</block>
