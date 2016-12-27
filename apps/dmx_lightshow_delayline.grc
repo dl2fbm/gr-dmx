@@ -93,7 +93,34 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(176, 13)</value>
+      <value>(416, 13)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>DMX_rate</value>
+    </param>
+    <param>
+      <key>value</key>
+      <value>50</value>
+    </param>
+  </block>
+  <block>
+    <key>variable</key>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(200, 13)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -120,34 +147,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(360, 13)</value>
-    </param>
-    <param>
-      <key>_rotation</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>id</key>
-      <value>carrier_frequency</value>
-    </param>
-    <param>
-      <key>value</key>
-      <value>250000</value>
-    </param>
-  </block>
-  <block>
-    <key>variable</key>
-    <param>
-      <key>comment</key>
-      <value></value>
-    </param>
-    <param>
-      <key>_enabled</key>
-      <value>True</value>
-    </param>
-    <param>
-      <key>_coordinate</key>
-      <value>(488, 13)</value>
+      <value>(528, 13)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -174,7 +174,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(272, 13)</value>
+      <value>(288, 13)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -182,7 +182,7 @@
     </param>
     <param>
       <key>id</key>
-      <value>samp_rate</value>
+      <value>intermediate_rate</value>
     </param>
     <param>
       <key>value</key>
@@ -587,7 +587,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(716, 600)</value>
+      <value>(724, 560)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -642,7 +642,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(772, 592)</value>
+      <value>(780, 552)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -697,7 +697,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(828, 584)</value>
+      <value>(836, 544)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -752,7 +752,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(884, 576)</value>
+      <value>(892, 536)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -807,7 +807,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(932, 560)</value>
+      <value>(940, 520)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -862,7 +862,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(980, 552)</value>
+      <value>(988, 512)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -1054,7 +1054,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(825, 768)</value>
+      <value>(833, 728)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -1810,7 +1810,7 @@
     </param>
     <param>
       <key>srate</key>
-      <value>50</value>
+      <value>DMX_rate</value>
     </param>
     <param>
       <key>tr_chan</key>
@@ -1850,7 +1850,7 @@
     </param>
     <param>
       <key>yunit</key>
-      <value>""</value>
+      <value>"Intensity"</value>
     </param>
     <param>
       <key>ymax</key>
@@ -1877,7 +1877,7 @@
     </param>
     <param>
       <key>decim</key>
-      <value>20</value>
+      <value>intermediate_rate</value>
     </param>
     <param>
       <key>_enabled</key>
@@ -1885,7 +1885,7 @@
     </param>
     <param>
       <key>fbw</key>
-      <value>0.4</value>
+      <value>0.1</value>
     </param>
     <param>
       <key>_coordinate</key>
@@ -1901,7 +1901,7 @@
     </param>
     <param>
       <key>interp</key>
-      <value>1</value>
+      <value>DMX_rate</value>
     </param>
     <param>
       <key>maxoutbuf</key>
@@ -1936,7 +1936,7 @@
     </param>
     <param>
       <key>decim</key>
-      <value>20</value>
+      <value>intermediate_rate</value>
     </param>
     <param>
       <key>_enabled</key>
@@ -1944,7 +1944,7 @@
     </param>
     <param>
       <key>fbw</key>
-      <value>0.4</value>
+      <value>0.1</value>
     </param>
     <param>
       <key>_coordinate</key>
@@ -1960,7 +1960,7 @@
     </param>
     <param>
       <key>interp</key>
-      <value>1</value>
+      <value>DMX_rate</value>
     </param>
     <param>
       <key>maxoutbuf</key>
@@ -1995,7 +1995,7 @@
     </param>
     <param>
       <key>decim</key>
-      <value>20</value>
+      <value>intermediate_rate</value>
     </param>
     <param>
       <key>_enabled</key>
@@ -2003,7 +2003,7 @@
     </param>
     <param>
       <key>fbw</key>
-      <value>0.4</value>
+      <value>0.1</value>
     </param>
     <param>
       <key>_coordinate</key>
@@ -2019,7 +2019,7 @@
     </param>
     <param>
       <key>interp</key>
-      <value>1</value>
+      <value>DMX_rate</value>
     </param>
     <param>
       <key>maxoutbuf</key>
@@ -2054,7 +2054,7 @@
     </param>
     <param>
       <key>decim</key>
-      <value>48</value>
+      <value>audio_rate</value>
     </param>
     <param>
       <key>_enabled</key>
@@ -2062,7 +2062,7 @@
     </param>
     <param>
       <key>fbw</key>
-      <value>0.4</value>
+      <value>0</value>
     </param>
     <param>
       <key>_coordinate</key>
@@ -2078,7 +2078,7 @@
     </param>
     <param>
       <key>interp</key>
-      <value>1</value>
+      <value>intermediate_rate</value>
     </param>
     <param>
       <key>maxoutbuf</key>
@@ -2113,7 +2113,7 @@
     </param>
     <param>
       <key>decim</key>
-      <value>48</value>
+      <value>audio_rate</value>
     </param>
     <param>
       <key>_enabled</key>
@@ -2121,7 +2121,7 @@
     </param>
     <param>
       <key>fbw</key>
-      <value>0.4</value>
+      <value>0</value>
     </param>
     <param>
       <key>_coordinate</key>
@@ -2137,7 +2137,7 @@
     </param>
     <param>
       <key>interp</key>
-      <value>1</value>
+      <value>intermediate_rate</value>
     </param>
     <param>
       <key>maxoutbuf</key>
@@ -2172,7 +2172,7 @@
     </param>
     <param>
       <key>decim</key>
-      <value>48</value>
+      <value>audio_rate</value>
     </param>
     <param>
       <key>_enabled</key>
@@ -2180,7 +2180,7 @@
     </param>
     <param>
       <key>fbw</key>
-      <value>0.4</value>
+      <value>0</value>
     </param>
     <param>
       <key>_coordinate</key>
@@ -2196,7 +2196,7 @@
     </param>
     <param>
       <key>interp</key>
-      <value>1</value>
+      <value>intermediate_rate</value>
     </param>
     <param>
       <key>maxoutbuf</key>
