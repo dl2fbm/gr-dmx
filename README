@@ -46,7 +46,7 @@ The current version controls up to 3 LED groups on DMX adresses
 (RGB RGB RGB): 1,2,3  7,8,9  13,14,15.
 
 The update-rate is fixed at 50Hz. 
-The python module runs at a slightly hier rate to ensure
+The python module runs at a slightly higher rate to ensure
 proper synchronization to the GNU-Radio blockset.
 
 For an example to use the driver have a look at gr-dmx/apps
